@@ -1,1 +1,7 @@
-From   nginx
+From   node:16
+WORKDIR /usr/src/app
+COPY    node-js-sample ./
+RUN     npm install
+EXPOSE   5000
+CMD [ "node", "index.js" ]
+
