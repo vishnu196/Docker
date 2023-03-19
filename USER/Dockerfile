@@ -1,3 +1,4 @@
 FROM alpine
-USER centos
+RUN adduser vishnu
+USER vishnu
 RUN touch test.txt
