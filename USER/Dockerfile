@@ -1,4 +1,4 @@
 FROM almalinux
 RUN adduser vishnu
-USER vishnu
+#USER vishnu
 RUN touch /tmp/test.txt
